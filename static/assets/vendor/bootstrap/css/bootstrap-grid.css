@@ -111,6 +111,13 @@ html {
   padding-left: 15px;
 }
 
+.container {
+  display: flex;
+}
+.container.space-around {
+  justify-content: space-between;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
